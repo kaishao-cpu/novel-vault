@@ -11,10 +11,14 @@
             "id": "f953a0f422c550eb",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "小说A/02_角色设定/人物心理轨迹.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "人物心理轨迹"
             }
           }
         ]
@@ -108,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "小说A/00_模板/世界观模板.md",
+                "file": "小说A/02_角色设定/人物心理轨迹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "世界观模板 的出链列表"
+              "title": "人物心理轨迹 的出链列表"
             }
           },
           {
@@ -137,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小说A/00_模板/世界观模板.md",
+                "file": "小说A/02_角色设定/人物心理轨迹.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "世界观模板 的大纲"
+              "title": "人物心理轨迹 的大纲"
             }
           },
           {
@@ -200,11 +204,12 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "0e9bb0260cb38fc9",
+  "active": "f953a0f422c550eb",
   "lastOpenFiles": [
+    "小说A/02_角色设定/主角.md",
+    "小说A/00_模板/世界观模板.md",
     "小说A/00_模板/场景模板.md",
     "小说A/00_模板/角色模板.md",
-    "小说A/00_模板/世界观模板.md",
     "小说A/03_世界观/政治制度.md",
     "小说A/03_世界观/文化宗教.md",
     "小说A/03_世界观/科技体系.md",
@@ -220,7 +225,6 @@
     "小说A/05_剧情大纲/剧情分段与关键节点.md",
     "小说A/05_剧情大纲/伏笔与爆发点.md",
     "小说A/02_角色设定/人物心理轨迹.md",
-    "小说A/02_角色设定/主角.md",
     "小说A/02_角色设定/配角.md"
   ]
 }
