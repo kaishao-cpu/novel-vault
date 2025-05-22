@@ -1,5 +1,68 @@
 {
-  "模块顺序": ["灵感素材", "角色设定", "世界观", "多线剧情管理", "剧情大纲", "时间线", "章节草稿", "关系图谱", "AI续写日志", "质量检测与修订规则", "文风与语体规范", "多平台发布管理", "项目进度管理"],
-  "续写规则": "按照优先级顺序读取并补全章节内容",
-  "语言风格": "以主文风为准，结合人物对白风格"
+  "project_name": "废土裂解宇宙·自动小说生成系统",
+  "version": "1.0",
+  "description": "本系统依托模块化结构与AI续写规则，批量生成风格统一、剧情连贯、结构完整的末日废土小说作品。",
+
+  "execution_order": [
+    "01_灵感素材",
+    "02_角色设定",
+    "03_世界观",
+    "04_多线剧情管理",
+    "05_剧情大纲",
+    "06_时间线",
+    "07_章节草稿",
+    "08_关系图谱",
+    "09_AI续写日志",
+    "10_质量检测与修订规则",
+    "11_文风与语体规范",
+    "12_多平台发布管理",
+    "13_项目进度管理"
+  ],
+
+  "exclude_from_generation": [
+    "00_模板"
+  ],
+
+  "narrative_style": {
+    "perspective": "第三人称有限视角",
+    "tone": "严肃深刻中带有冷峻幽默",
+    "language_register": "中性偏文艺（避免直白粗糙）",
+    "dialogue_style": "人物个性鲜明，尽量口语化但不低俗"
+  },
+
+  "foreshadowing": {
+    "track_file": "05_剧情大纲/伏笔与爆发点.md",
+    "rules": [
+      "必须提前3章以上埋设伏笔",
+      "每20章至少引爆一次前伏笔，制造高潮"
+    ]
+  },
+
+  "quality_control": {
+    "enabled": true,
+    "rule_file": "10_质量检测与修订规则/质量检测规则.md",
+    "ai_detection_mitigation": {
+      "diversify_sentence_patterns": true,
+      "alternate_synonyms": true,
+      "style_randomization": true
+    }
+  },
+
+  "auto_generation": {
+    "enabled": true,
+    "log_file": "09_AI续写日志/续写记录.md",
+    "context_window": 4,
+    "use_modules": [
+      "02_角色设定",
+      "03_世界观",
+      "04_多线剧情管理",
+      "05_剧情大纲"
+    ]
+  },
+
+  "platform_sync": {
+    "enabled": true,
+    "tracking_file": "12_多平台发布管理/平台发布汇总.md",
+    "platforms": ["番茄", "七猫", "飞卢", "米读", "WebNovel（英文）"]
+  }
 }
