@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "小说A/00_模板/场景模板.md",
+                "file": "小说A/01_灵感素材/灵感合集.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "场景模板"
+              "title": "灵感合集"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "小说A/00_模板/场景模板.md",
+                "file": "小说A/01_灵感素材/灵感合集.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "场景模板 的出链列表"
+              "title": "灵感合集 的出链列表"
             }
           },
           {
@@ -141,13 +141,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "小说A/00_模板/场景模板.md",
+                "file": "小说A/01_灵感素材/灵感合集.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "场景模板 的大纲"
+              "title": "灵感合集 的大纲"
             }
           },
           {
@@ -185,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,9 +206,9 @@
   },
   "active": "485fecb0e39563b1",
   "lastOpenFiles": [
+    "小说A/00_模板/场景模板.md",
     "小说A/00_模板/角色模板.md",
     "小说A/00_模板/世界观模板.md",
-    "小说A/00_模板/场景模板.md",
     "小说A/13_项目进度管理/项目进度报告.md",
     "小说A/12_多平台发布管理/平台发布汇总.md",
     "小说A/11_文风与语体规范/文风语体说明.md",
