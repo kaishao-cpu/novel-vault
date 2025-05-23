@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4fb0b6bb56568eb2",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "0194a7b94e6c99c8",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "五势纪元/13_项目进度管理/项目进度报告.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "项目进度报告"
+              "title": "新标签页"
             }
           }
         ]
@@ -204,8 +200,9 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "0e9bb0260cb38fc9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "五势纪元/13_项目进度管理/项目进度报告.md",
     "五势纪元/12_多平台发布管理/平台发布汇总.md",
     "五势纪元/11_文风与语体规范/文风语体说明.md",
     "五势纪元/10_质量检测与修订规则/质量检测规则.md",
@@ -232,7 +229,6 @@
     "五势纪元/02_角色设定/配角/配角 1.md",
     "五势纪元/02_角色设定/配角",
     "小说A/02_角色设定/配角.md",
-    "小说A/02_角色设定 1/配角.md",
     "小说A/02_角色设定 1"
   ]
 }
