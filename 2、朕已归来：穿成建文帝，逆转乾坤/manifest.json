@@ -4,7 +4,7 @@
   "active_modules": ["02_角色设定", "03_世界观", "04_多线剧情管理", "05_剧情大纲", "07_章节草稿"],
   "style": "历史穿越爽文",
   "language": "简体中文",
-  "chapter_length": "2000±500",
+  "chapter_length": "3000±500",
   "writing_rules": {
     "hook_start": true,
     "cliffhanger_end": true,
