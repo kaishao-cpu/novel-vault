@@ -1,7 +1,7 @@
 {
   "project_name": "废土裂解宇宙·自动小说生成系统",
-  "version": "1.0",
-  "description": "本系统依托模块化结构与AI续写规则，批量生成风格统一、剧情连贯、结构完整的末日废土小说作品。",
+  "version": "1.1",
+  "description": "通过模块化结构、反检测写作策略与AI自然风格模拟，批量生成符合平台规范、低AI检测率的末日废土小说。",
 
   "execution_order": [
     "01_灵感素材",
@@ -25,27 +25,36 @@
 
   "narrative_style": {
     "perspective": "第三人称有限视角",
-    "tone": "严肃深刻中带有冷峻幽默",
-    "language_register": "中性偏文艺（避免直白粗糙）",
-    "dialogue_style": "人物个性鲜明，尽量口语化但不低俗"
+    "tone": "冷峻现实中带微妙幽默",
+    "language_register": "中性偏文艺，允许适度粗粝",
+    "dialogue_style": "真实自然、有思维跳跃感，避免整齐模板化",
+    "human_writing_emulation": true
+  },
+
+  "ai_detection_mitigation": {
+    "enabled": true,
+    "strategies": {
+      "diversify_sentence_patterns": true,
+      "alternate_synonyms": true,
+      "style_randomization": true,
+      "avoid_logical_perfection": true,
+      "human_emotion_jumps": true,
+      "use_chinese_proper_nouns": true,
+      "simulate_misremembering": true
+    }
   },
 
   "foreshadowing": {
     "track_file": "05_剧情大纲/伏笔与爆发点.md",
     "rules": [
-      "必须提前3章以上埋设伏笔",
-      "每20章至少引爆一次前伏笔，制造高潮"
+      "每条伏笔提前至少3章埋设",
+      "每20章需至少引爆一次前伏笔，制造高潮与反转"
     ]
   },
 
   "quality_control": {
     "enabled": true,
-    "rule_file": "10_质量检测与修订规则/质量检测规则.md",
-    "ai_detection_mitigation": {
-      "diversify_sentence_patterns": true,
-      "alternate_synonyms": true,
-      "style_randomization": true
-    }
+    "rule_file": "10_质量检测与修订规则/质量检测规则.md"
   },
 
   "auto_generation": {
@@ -57,12 +66,17 @@
       "03_世界观",
       "04_多线剧情管理",
       "05_剧情大纲"
-    ]
+    ],
+    "chapter_length_range": {
+      "min": 2500,
+      "max": 3500,
+      "method": "lambda"
+    }
   },
 
   "platform_sync": {
     "enabled": true,
     "tracking_file": "12_多平台发布管理/平台发布汇总.md",
-    "platforms": ["番茄", "七猫", "飞卢", "米读", "WebNovel（英文）"]
+    "platforms": ["番茄", "七猫", "飞卢", "米读", "WebNovel"]
   }
 }
